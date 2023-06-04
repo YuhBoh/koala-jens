@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Koalla Holla</title>
+    <script src="vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./views/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 >
+         <h1 class="text">Kaola</h1>  <img src="images/pngwing.com.png" class="icon" />  <h1 class="text">Holla</h1>  </h1> 
+      </div>
+      
+    </header>
+    <div class="address">
+      <h3>1976 Llama Comma Drive</h3>
+    <h3>Walla Walla, WA</h3>
+    </div>
+    
+    <section id="addKoala">
+      <h2>Add Koala</h2>
+      <form id="addKoalaForm">
+        <input type="text" id="nameIn" value="" placeholder="Name">
+        <input type="text" id="ageIn" value="" placeholder="Age">
+        <input type="text" id="genderIn" value="" placeholder="Gender">
+        <label for="readyForTranser">Transfer</label>
+        <input type="checkbox" id="readyForTransferIn" name="readyForTranser">
+        <input type="text" id="notesIn" value="" placeholder="Notes">
+        <button type="submit" id="addButton">Add Koala</button>
+      </form>
+    </section>
+    <section>
+      <h2>All Koalas</h2>
+      <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Ready for Transfer</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody id="viewKoalas">
+        </tbody>
+      </table>
+    </div>
+    </section>
+    <div class="trees"></div>
+    <footer>
+      QUAKA.INC
+    </footer>
+  </body>
+</html>

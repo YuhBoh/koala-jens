@@ -1,0 +1,82 @@
+.icon {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+header{
+    background-size: contain;
+    background-image: url('/images/OIP\ \(1\).jpg');
+    height: 200px;
+    padding-left: 130px;
+    margin: -20px;
+}
+
+.text{
+    padding-top: 50px;
+    font-size: 90px;
+    color: beige;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    padding-left:20px;
+    font-size: 15px;
+    color:beige;
+    font-family: ' 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: -20px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgb(232, 230, 229) 0%, rgb(65, 229, 28) 0%, rgb(9, 13, 121) 90%);
+}
+
+.trees{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-image: url(/images/PikPng.com_forest-png_1226588.png);
+}
+
+#addKoala{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+h2{
+    color:beige;
+    padding-left:30px;
+}
+
+th, tr{
+    font-size: 20px;
+    padding-left:30px;
+    color:beige;
+}
+
+footer{
+    background-color: rgba(57, 235, 200, 0.445);
+    height: 100px;
+    margin: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
